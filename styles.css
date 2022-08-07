@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(235, 130, 38)
+  }
+ 
+  h1 {
+   color: rgb(69, 218, 32);
+  }
+ 
+  div {
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+   }
+         
+  .shadow-text {
+      text-shadow: yellow 5px 5px;
+   }
+  
+   #large-text {
+        font-size: 30px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%
+      }
+      
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid black;
+      }
+      
+      tr:nth-child(even) {
+        background-color: teal;
+      }
+      
+      tr:hover {
+        background-color: gray;
+      }
+ 
